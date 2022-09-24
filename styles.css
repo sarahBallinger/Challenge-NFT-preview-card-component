@@ -1,0 +1,105 @@
+body{
+  background-color: hsl(216, 50%, 16%);
+  font-family: 'Outfit', san-serif;
+}
+
+/* main card */
+
+.main-container{
+  background-color: hsl(215, 32%, 27%);
+  width: min(150vw, 300px);
+  margin: 9.5rem auto;
+  border-radius: 15px;
+  padding: 1.3rem 1.3rem;
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.5);
+}
+
+/* Main Image */
+
+.image-equilibrium-container{
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  border-radius: 3%;
+}
+
+.image-equilibrium{
+  display: block;
+  max-width: 100%;
+}
+
+/* Info middle section */
+
+h1{
+  font-size: 1.5rem;
+  color: #fff;
+  font-weight: 500;
+  margin: 6% 0;
+}
+
+p{
+  font-size: 1rem;
+  color: hsl(215, 51%, 70%);
+  font-weight: 200;
+}
+
+.ETH-and-time{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: .5rem 0;
+}
+
+.ETH{
+  color: cyan;
+}
+
+.icon-div{
+  display: flex;
+  align-items: center;
+}
+
+.icon{
+  margin-right: .5rem;
+}
+
+.time{
+  color: hsl(215, 51%, 70%);
+  font-weight: 200;
+}
+
+/* Bottom Section */
+
+hr{
+  border-top: 1px solid hsl(215, 51%, 70%);
+  border-width: 1px 0 0 0;
+  align: center;
+}
+
+.avatar{
+  width: 2rem;
+  border: 1px solid #fff;
+  border-radius: 100%;
+  margin-right: 1rem;
+}
+
+.creator{
+  display: flex;
+  align-items: center;
+  padding-top: .5rem;
+}
+
+.creator-info{
+  color: hsl(215, 51%, 70%);
+  font-weight: 200;
+}
+
+.creator-name{
+  color: #fff;
+}
+
+
+
+
+
+/*  */
