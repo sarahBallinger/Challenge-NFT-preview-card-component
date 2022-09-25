@@ -17,15 +17,47 @@ body{
 /* Main Image */
 
 .image-equilibrium-container{
-  position: relative;
+  position: relative;      /* used to keep overlay in container */
   overflow: hidden;
   width: 100%;
   border-radius: 3%;
+  display: flex;             /* Used to */
+  justify-content: center;  /* align items in*/
+  align-items: center;      /* Hover state*/
 }
 
 .image-equilibrium{
   display: block;
   max-width: 100%;
+}
+
+.overlay{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: 2;
+  margin: auto;
+}
+
+.overlay:hover{
+  position: absolute;
+  background-color: cyan;
+  opacity: .5;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  margin: auto;
+}
+
+.eye-icon{
+  position: absolute;
+  text-align: center;
+  display: none;
+  z-index: 2;
+}
+
+.overlay:hover + .eye-icon {
+  display: block;
 }
 
 /* Info middle section */
@@ -35,6 +67,10 @@ h1{
   color: #fff;
   font-weight: 500;
   margin: 6% 0;
+}
+
+h1:hover{
+  color: cyan;
 }
 
 p{
@@ -98,8 +134,18 @@ hr{
   color: #fff;
 }
 
+.creator-name:hover{
+  color: cyan;
+}
 
+/* Attribution */
 
+.attribution{
+  text-align: center;
+  padding-bottom: 2rem;
+  color: #fff;
+}
 
-
-/*  */
+.me{
+  color: cyan;
+}
